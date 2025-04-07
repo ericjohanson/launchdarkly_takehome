@@ -4,9 +4,10 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { withLDProvider } from 'launchdarkly-react-client-sdk';
-import { apiKey, LD_API_KEY } from "../api/config";
+import { apiKey, LD_API_KEY } from "./api/config";
+
 const LDProvider = withLDProvider({
-  clientSideID: '${LD_API_KEY}',
+  clientSideID: `${LD_API_KEY}`,
   context: {
     "kind": "user",
     "key": "user-key-123abc",
