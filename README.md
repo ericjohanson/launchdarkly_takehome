@@ -2,9 +2,8 @@
 
 ### Getting Started
 
-Click the demo link or clone/download the repository on your local machine.
-Create a config.js file in api folder inside src folders. In config.js file write
-`export const LD = "YOUR_FLIKR_API_KEY";`
+Download this repo as a zipfile or using the github cli.
+https://github.com/ericjohanson/launchdarkly_takehome.git
 
 ##### Install dependencies
 
@@ -17,6 +16,8 @@ Once you have installed those two packages, navigate to this directory in your t
 `yarn install`
 
 ##### Run Eric's ABC Stores from the root directory.
+
+Once you have installed the required packages. Run the below command to start the app. This command should automatically open a browser window with the app running.
 
 `yarn start`
 
