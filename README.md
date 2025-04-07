@@ -15,6 +15,10 @@ Once you have installed those two packages, navigate to this directory in your t
 
 `yarn install`
 
+##### Adding your client key
+
+Navigate to src/api/config.js. In this file, you will see a variable called LD_API_KEY. You will need to input your LaunchDarkly CLIENT key here.
+
 ##### Run Eric's ABC Stores from the root directory.
 
 Once you have installed the required packages. Run the below command to start the app. This command should automatically open a browser window with the app running.
